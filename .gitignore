@@ -1,0 +1,12 @@
+*~
+*.swp
+*.exe
+*.pyc
+*.o
+*.log
+**/kernel/fcuda_out
+**/fcuda_gen
+**/hls
+**/sdk/bsp
+**/vivado
+*.hdf

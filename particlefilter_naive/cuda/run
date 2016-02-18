@@ -1,0 +1,2 @@
+./particlefilter_naive -x 128 -y 128 -z 10 -np 1000 > gold_output_naive.txt
+./particlefilter_float -x 128 -y 128 -z 10 -np 1000 > gold_output_float.txt
