@@ -1,4 +1,4 @@
-#FCUDA SoC Flow
+#FCUDA Benchmarks
 
 ##Introduction
 - This repository contains benchmarks for testing the FCUDA Compiler. These are CUDA benchmarks collecting
