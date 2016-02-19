@@ -10,3 +10,4 @@
 **/sdk/bsp
 **/vivado
 *.hdf
+log_fcuda.cu

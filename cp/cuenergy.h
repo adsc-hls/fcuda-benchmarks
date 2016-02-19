@@ -5,6 +5,9 @@
  *cr                         All Rights Reserved
  *cr
  ***************************************************************************/
+#ifndef _CP_H_
+#define _CP_H_
+
 #include <fcuda.h>
 /* Size of a thread block */
 #define BLOCKSIZEX 16
@@ -55,5 +58,5 @@ void cpuenergy(dim3 grid,
                int k,
                const float *atoms,
                float *energygrid);
-
+#endif
 
