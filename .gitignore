@@ -11,3 +11,4 @@
 **/vivado
 *.hdf
 log_fcuda.cu
+noc_prj
