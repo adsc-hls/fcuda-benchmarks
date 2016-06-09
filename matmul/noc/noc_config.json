@@ -1,0 +1,28 @@
+{
+  "top_level_function": "matrixMul",
+  "device_id": "xc7vx690tffg1761-2",
+  "directory_enable": 1,
+  "directory_bypass": 1,
+  "outstanding_array_enable": 1,
+  "outstanding_array_wait_delay": 1000,
+  "directory_size": 256,
+  "scalar_values" : [
+    {"name" : "wA", "value" : "32"},
+    {"name" : "wB", "value" : "32"},
+    {"name" : "A_addr", "value" : "0"},
+    {"name" : "B_addr", "value" : "1024"},
+    {"name" : "C_addr", "value" : "2048"},
+    {"name" : "gridDim_x", "value" : "2"},
+    {"name" : "gridDim_y", "value" : "2"},
+    {"name" : "gridDim_z", "value" : "1"},
+    {"name" : "blockDim_x", "value" : "16"},
+    {"name" : "blockDim_y", "value" : "16"},
+    {"name" : "blockDim_z", "value" : "1"},
+    {"name" : "num_cores", "value" : "1"},
+    {"name" : "core_id", "value" : "0"}
+  ],
+  "external_mem_delay_sim" : 60,
+  "output_size": 1024,
+  "input_file" : "data_init_1024.hex",
+  "gold_file" : "data_final_1024.hex"
+}
