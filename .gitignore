@@ -12,3 +12,4 @@
 *.hdf
 log_fcuda.cu
 noc_prj
+bus_prj
