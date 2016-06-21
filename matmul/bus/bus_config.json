@@ -1,0 +1,33 @@
+{
+  "top_level_function": "matrixMul",
+  "compute_task": "matrixMul_vec_blk",
+  "transfer_task": "fetch",
+  "device_id": "xc7vx690tffg1761-2",
+  "platform_width": 222,
+  "platform_height": 500,
+  "platform_bram_width": 19,
+  "platform_bram_height": 100,
+  "platform_dsp_width": 18,
+  "platform_dsp_height": 200,
+  "platform_ff_num": 866400,
+  "platform_lut_num": 433200,
+  "app_task_iter": 8,
+  "app_threadblock_num": 64,
+  "app_unroll_max": 16,
+  "memport_data_type": "int",
+  "scalar_values" : [
+    {"name" : "wA", "value" : "128"},
+    {"name" : "wB", "value" : "128"},
+    {"name" : "A_addr", "value" : "0"},
+    {"name" : "B_addr", "value" : "16384"},
+    {"name" : "C_addr", "value" : "32768"},
+    {"name" : "gridDim_x", "value" : "8"},
+    {"name" : "gridDim_y", "value" : "8"},
+    {"name" : "gridDim_z", "value" : "1"},
+    {"name" : "blockDim_x", "value" : "16"},
+    {"name" : "blockDim_y", "value" : "16"},
+    {"name" : "blockDim_z", "value" : "1"}
+  ],
+  "input_file" : "data_init_16384.hex",
+  "gold_file" : "data_final_16384.hex"
+}

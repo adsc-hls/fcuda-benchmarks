@@ -1,0 +1,31 @@
+{
+  "top_level_function": "fwtBatch2Kernel",
+  "compute_task": "fwtBatch2Kernel_vec_blk",
+  "transfer_task": "fetch",
+  "device_id": "xc7vx690tffg1761-2",
+  "platform_width": 222,
+  "platform_height": 500,
+  "platform_bram_width": 19,
+  "platform_bram_height": 100,
+  "platform_dsp_width": 18,
+  "platform_dsp_height": 200,
+  "platform_ff_num": 866400,
+  "platform_lut_num": 433200,
+  "app_task_iter": 1,
+  "app_threadblock_num": 8192,
+  "app_unroll_max": 256,
+  "memport_data_type": "int",
+  "scalar_values" : [
+    {"name" : "stride", "value" : "512"},
+    {"name" : "d_Input_addr", "value" : "0"},
+    {"name" : "d_Output_addr", "value" : "8388608"},
+    {"name" : "gridDim_x", "value" : "8192"},
+    {"name" : "gridDim_y", "value" : "1"},
+    {"name" : "gridDim_z", "value" : "1"},
+    {"name" : "blockDim_x", "value" : "256"},
+    {"name" : "blockDim_y", "value" : "1"},
+    {"name" : "blockDim_z", "value" : "1"}
+  ],
+  "input_file" : "data_init_8388608.hex",
+  "gold_file" : "data_final_fwt2_8388608.hex"
+}
